@@ -30,6 +30,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/ahmad', function () {
+    return view('ahmad');
+});
+
 Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
