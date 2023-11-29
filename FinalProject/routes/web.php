@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AntoineController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/otherRoute',function(){
-    return view('otherRoute');
-});
-
+Route::get('/', [AntoineController::class, 'index']);
