@@ -21,3 +21,13 @@ Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
 
+
+
+
+
+/* Laura's Routes */
+Route::get('/laura',function(){
+    return view('laura');
+});
+/* End Laura's Routes */
+
