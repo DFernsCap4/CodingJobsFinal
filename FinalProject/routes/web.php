@@ -32,6 +32,9 @@ Route::get('/laura',function(){
     return view('laura');
 });
 /* End Laura's Routes */
+Route::get('/depression',function(){
+    return view('depression');
+});
 
 /* Marcia's Routes */
 Route::get('/marcia',function(){
