@@ -21,3 +21,4 @@ Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
 
+Route::view('/hithere', 'hithere');
