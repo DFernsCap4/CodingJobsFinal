@@ -35,3 +35,8 @@ Route::get('/laura',function(){
 });
 /* End Laura's Routes */
 
+/* Marcia's Routes */
+Route::get('/marcia',function(){
+    return view('marcia');
+});
+/* End Marcia's Routes */
