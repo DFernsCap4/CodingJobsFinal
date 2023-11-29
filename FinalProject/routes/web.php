@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get("/dany", function(){
+    return view("dany");
+});
+
 Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
@@ -24,4 +28,13 @@ Route::get('/otherRoute',function(){
 Route::get('/oneMoreRoute',function(){
     return view('oneMoreRoute');
 });
+
+
+
+
+/* Laura's Routes */
+Route::get('/laura',function(){
+    return view('laura');
+});
+/* End Laura's Routes */
 
