@@ -55,3 +55,7 @@ Route::get('/marcia',function(){
     return view('marcia');
 });
 /* End Marcia's Routes */
+
+Route::get('/shrek',function(){
+    return view('shrek');
+});
