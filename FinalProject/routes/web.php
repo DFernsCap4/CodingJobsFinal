@@ -21,3 +21,7 @@ Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
 
+Route::get('/depression',function(){
+    return view('depression');
+});
+
