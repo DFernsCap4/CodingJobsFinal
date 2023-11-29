@@ -29,6 +29,10 @@ Route::get('/oneMoreRoute',function(){
     return view('oneMoreRoute');
 });
 
+Route::get('/mai',function(){
+    return view('mai');
+});
+
 
 
 Route::view('/hithere', 'hithere');
