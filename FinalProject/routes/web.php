@@ -26,3 +26,10 @@ Route::get('/otherRoute',function(){
 });
 
 Route::view('/hithere', 'hithere');
+
+/* Laura's Routes */
+Route::get('/laura',function(){
+    return view('laura');
+});
+/* End Laura's Routes */
+
