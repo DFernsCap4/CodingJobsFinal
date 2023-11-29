@@ -17,7 +17,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get("/dany", function(){
+    return view("dany");
+});
+
 Route::get('/otherRoute',function(){
     return view('otherRoute');
+});
+
+Route::view('/hithere', 'hithere');
+
+/* Laura's Routes */
+Route::get('/laura',function(){
+    return view('laura');
+});
+/* End Laura's Routes */
+Route::get('/depression',function(){
+    return view('depression');
 });
 
