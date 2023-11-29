@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AntoineController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,9 +25,26 @@ Route::get("/dany", function(){
 Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
+//add Route
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
+Route::get('/ahmad', function () {
+    return view('ahmad');
+});
+
+Route::get('/otherRoute',function(){
+    return view('otherRoute');
+});
 Route::get('/oneMoreRoute',function(){
     return view('oneMoreRoute');
+});
+
+Route::get('/mai',function(){
+    return view('mai');
 });
 
 
@@ -47,3 +65,8 @@ Route::get('/marcia',function(){
     return view('marcia');
 });
 /* End Marcia's Routes */
+
+Route::get('/shrek',function(){
+    return view('shrek');
+});
+Route::get('/', [AntoineController::class, 'index']);
